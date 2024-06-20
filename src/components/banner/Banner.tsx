@@ -22,6 +22,19 @@ const options = [
 
 const Banner = () => {
   const [dropdownValue, setDropdownValue] = useState("");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phoneNumber: "",
+    scamCompanyName: "",
+    country: "",
+    amountLost: "",
+    paymentMethod: "",
+    currency: "",
+    lastTransactionDate: "",
+    scamType: "",
+    message: "",
+  });
   const handleDropdownChange = (e: ChangeEvent<HTMLSelectElement>) => {
     setDropdownValue(e.target.value);
   };
