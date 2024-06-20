@@ -14,7 +14,7 @@ const Banner3 = () => {
             Why Ocean Sprint?
           </h1>
           <h1 className="text-2xl md:text-4xl text-white whitespace-nowrap">
-            We've Got Reasons For You
+            We&apos;ve Got Reasons For You
           </h1>
           <button className="h-[40px] w-[220px]  bg-[#2c3aa4] text-[white] md:w-[259px]">
             Read More
