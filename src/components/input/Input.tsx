@@ -7,7 +7,7 @@ const Input: React.FC<InputProps> = ({
   placeholder,
   type,
   className,
-
+  onChange,
   ...rest
 }) => {
   return (
@@ -26,8 +26,10 @@ const Input: React.FC<InputProps> = ({
           type={type}
           id={name}
           name={name}
+          onChange={onChange}
           placeholder={placeholder}
           {...rest}
+          required
         />
       </div>
     </div>

@@ -1,9 +1,9 @@
 .input_container {
-  @apply relative flex items-center h-[34px] w-auto;
+  @apply relative flex items-center h-[34px] w-[300px] md:w-auto;
 }
 
 .input {
-  @apply w-full z-10  border px-5 py-0 my-3 h-full cursor-pointer rounded-lg  appearance-none focus:outline-none;
+  @apply w-full z-10  border md:px-5 py-0 my-3 h-full cursor-pointer rounded-lg  appearance-none focus:outline-none;
 }
 
 .input::placeholder {

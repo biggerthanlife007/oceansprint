@@ -46,14 +46,14 @@ const Navbar = () => {
             {isMenuOpen && (
               // "Cancel" button to close the menu
               <div
-                className="left-[3rem] text-[22px] bottom-[44rem] cursor-pointer "
+                className="left-[3rem] text-[22px] bottom-[44rem] mt-[1.5rem] cursor-pointer "
                 onClick={closeMenu}
               >
                 <LiaTimesSolid />
               </div>
             )}
           </div>
-          <div className="flex items-center gap-6 mx-[2rem] md:w-[1340px]">
+          <div className="flex items-center gap-6 mx-[2rem] md:w-[1340px] md:mt-3">
             <h1 className={styles.navbar_logo}>
               OCEANSPRINT
               <div className="bg-[#2c3aa4]">
@@ -70,7 +70,7 @@ const Navbar = () => {
                 </Link>
               ))}
             </div>
-            <button className="bg-[#2c3aa4] text-white h-[3rem] px-2 mt-2 rounded-md ">
+            <button className="hidden md:block bg-[#2c3aa4] text-white h-[3rem] px-2 mt-2 rounded-md ">
               Free Consultation
             </button>
           </div>

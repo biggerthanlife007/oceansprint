@@ -1,6 +1,6 @@
 .select__wrapper {
   // @apply relative flex items-center h-[54px] w-[500px];
-  @apply relative flex flex-col items-center  h-[34px] w-[220px];
+  @apply relative flex flex-col items-center  h-[34px] w-[300px] md:w-[220px];
 }
 
 .select {

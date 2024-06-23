@@ -4,6 +4,6 @@ export default interface InputProps extends React.HTMLProps<HTMLInputElement> {
   placeholder?: string;
   type?: string;
   className?: string;
-
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   borderRadius?: string;
 }

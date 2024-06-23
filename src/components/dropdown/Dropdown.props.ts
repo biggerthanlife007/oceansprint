@@ -1,6 +1,6 @@
 import type { ChangeEvent } from "react";
 
-interface OptionType {
+export interface OptionType {
   label: string;
   value: string;
 }
@@ -13,4 +13,5 @@ export interface DropdownProps {
   required?: boolean;
   className?: string;
   onChange: (e: ChangeEvent<HTMLSelectElement>) => void;
+  placeholder?: string;
 }

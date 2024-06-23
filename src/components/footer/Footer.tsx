@@ -30,19 +30,19 @@ const Footer = () => {
           <h1>Quick links</h1>
           <div className="flex flex-col gap-4 my-5">
             <div className="flex flex-row items-center gap-4">
-              <FaChevronRight />
+              <FaChevronRight className="text-[#4068e2]" />
               <h2>Home</h2>
             </div>
             <div className="flex flex-row items-center gap-4">
-              <FaChevronRight />
+              <FaChevronRight className="text-[#4068e2]" />
               <h2>Our Service</h2>
             </div>
             <div className="flex flex-row items-center gap-4">
-              <FaChevronRight />
+              <FaChevronRight className="text-[#4068e2]" />
               <h2>About Us</h2>
             </div>
             <div className="flex flex-row items-center gap-4">
-              <FaChevronRight />
+              <FaChevronRight className="text-[#4068e2]" />
               <h2>Contact Us</h2>
             </div>
           </div>
@@ -60,10 +60,10 @@ const Footer = () => {
           <h1>Contact Us</h1>
 
           <div className="flex flex-row items-center gap-4">
-            <IoMdMail /> Contact@gmail.com
+            <IoMdMail className="text-[#4068e2] text-3xl" /> Contact@gmail.com
           </div>
-          <div className="flex flex-row items-center gap-4">
-            <FaPhoneAlt />
+          <div className="flex flex-row items-center gap-4 mt-2">
+            <FaPhoneAlt className="text-[#4068e2] text-3xl" />
             +44 2344 567865
           </div>
         </div>

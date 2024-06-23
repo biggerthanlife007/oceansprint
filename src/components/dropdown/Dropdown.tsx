@@ -10,6 +10,7 @@ const Dropdown: React.FC<DropdownProps> = ({
   onChange,
   className,
   required,
+  placeholder = "...",
 }) => {
   return (
     <div className={`${styles.select__wrapper} ${className}`}>
@@ -23,8 +24,12 @@ const Dropdown: React.FC<DropdownProps> = ({
         className={`${styles.select} ${styles.customSelect} ${className}`}
         value={dropdownValue}
         onChange={onChange}
-        required={required}
+        // required={required}
+        required
       >
+        <option value="" disabled>
+          {placeholder}
+        </option>
         {options.map((option, index) => (
           <option key={index} value={option.value}>
             {option.label}
